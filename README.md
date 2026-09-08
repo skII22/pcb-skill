@@ -79,6 +79,16 @@ docs/case-study.md           one board, the defects the process caught, and the 
 
 MIT — see [`LICENSE`](LICENSE).
 
+## Star history
+
+<a href="https://star-history.com/#daishuge/pcb-skill&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=daishuge/pcb-skill&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=daishuge/pcb-skill&type=Date" />
+    <img alt="Star history chart for daishuge/pcb-skill" src="https://api.star-history.com/svg?repos=daishuge/pcb-skill&type=Date" />
+  </picture>
+</a>
+
 ## 友情链接
 
 - [linux.do](https://linux.do)
