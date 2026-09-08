@@ -82,6 +82,3 @@ MIT — see [`LICENSE`](LICENSE).
 ## 友情链接
 
 - [linux.do](https://linux.do)
-- [v2ex.com](https://v2ex.com)
-- [linux.sb](https://linux.sb)
-- [openai.com](https://openai.com)
