@@ -21,10 +21,19 @@ its shopping in a browser you are already logged in to.
 
 ## Install
 
+`SKILL.md` loads `references/`, `scripts/` and `setup/` as its own siblings, so all three have to land
+in the skill directory. This repo keeps `scripts/` and `setup/` at the top level so they stay browsable
+here — copying only `skills/pcb/` gives you a skill whose checkers and setup guides are simply absent.
+
 ```bash
 git clone https://github.com/daishuge/pcb-skill.git
-cp -r pcb-skill/skills/pcb ~/.claude/skills/pcb        # Claude Code
-# or: cp -r pcb-skill/skills/pcb ~/.codex/skills/pcb   # Codex
+cd pcb-skill
+
+DEST=~/.claude/skills/pcb                  # Codex: DEST=~/.codex/skills/pcb
+mkdir -p "$DEST" && cp -R skills/pcb/. scripts setup "$DEST"/
+
+# verify — a missing directory here fails later, in the middle of a design
+ls "$DEST"/SKILL.md "$DEST"/references "$DEST"/scripts "$DEST"/setup >/dev/null && echo "pcb installed"
 ```
 
 Then work through [`setup/README.md`](setup/README.md) — the skill checks these before it starts:
