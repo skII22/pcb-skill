@@ -73,4 +73,5 @@ notification channel — you have a hope.
 | 3 | install the approval watcher, if you need one | a recent `APPROVE` line in its log |
 | 4 | wire up notifications | a test message arrives, and the watchdog would emit a line on a crash |
 
-Then read [`../skills/pcb/SKILL.md`](../skills/pcb/SKILL.md) and start at Phase 0.
+Then read the skill itself — `../SKILL.md` once installed,
+[`skills/pcb/SKILL.md`](../skills/pcb/SKILL.md) in this repo — and start at Phase 0.

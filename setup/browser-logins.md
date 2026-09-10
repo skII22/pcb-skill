@@ -21,8 +21,8 @@ Three classes of site. Yours will have different names; the roles are the same.
 
 A fourth thing may need a login and is not a website: some PCB houses only honour a free-prototype
 coupon through their own **desktop ordering client** or a phone app, not the web order form. That
-client demands its own login (QR scan or password) on first run. See
-`skills/pcb/references/03-jlc-manufacturing.md`.
+client demands its own login (QR scan or password) on first run. See the skill's
+`references/03-jlc-manufacturing.md`.
 
 ### Why the agent needs the session at all, when catalogue pages are public
 

@@ -194,7 +194,7 @@ Also useful once you have a project: `project_get_structure` for the board/schem
 - A successful `npm run build`.
 - The extension appearing in the EDA's extension list.
 - A tool call returning `success: true`. Several tools on this API return success on writes that did
-  not land — that is the entire subject of `skills/pcb/references/05-easyeda-mcp.md`, and it is not
+  not land — that is the entire subject of the skill's `references/05-easyeda-mcp.md`, and it is not
   optional reading before your first write.
 
 ### A 45-second timeout usually is not a hang
@@ -244,7 +244,7 @@ Then load your staged content with `project_import_file` targeting that project'
 Some PCB houses tie their free-prototype coupon to the design being **native to their EDA and not
 imported**. If that applies to you, the safest shape is: the ordered document is a GUI-created native
 document whose *content* was loaded through the extension API. Decide this before you build the
-project, not at the order page. See `skills/pcb/references/03-jlc-manufacturing.md`.
+project, not at the order page. See the skill's `references/03-jlc-manufacturing.md`.
 
 ---
 
@@ -334,6 +334,6 @@ stale extension is an hour spent on the wrong board.
 
 ## Next
 
-`skills/pcb/references/05-easyeda-mcp.md` is the trap list — the API calls that return `true` and do
+The skill's `references/05-easyeda-mcp.md` is the trap list — the API calls that return `true` and do
 nothing, the coordinate systems that disagree, the geometry that is not what it looks like. **Read it
 before your first write**, not after your first surprise.
